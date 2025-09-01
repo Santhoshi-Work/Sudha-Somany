@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:mg5_code",
+ "creation": "2025-09-01 12:56:16.907196",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "mg5_code",
+  "mg5_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "mg5_code",
+   "fieldtype": "Data",
+   "label": "MG5 Code",
+   "unique": 1
+  },
+  {
+   "fieldname": "mg5_description",
+   "fieldtype": "Data",
+   "label": "MG5 Description"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-01 13:11:06.326559",
+ "modified_by": "Administrator",
+ "module": "Sudha Somany",
+ "name": "Material Group",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
