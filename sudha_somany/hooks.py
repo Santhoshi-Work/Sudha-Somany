@@ -7,18 +7,14 @@ app_license = "mit"
 
 
 fixtures = [
-    {
-        "doctype": "Custom Field",
-        "filters": [
-            ["name", "in", [
-                "Item-custom_plnt",
-                "Item-custom_dv",
-                "Item-custom_pcs_in_box",
-                "Item-custom_mg_5"
-            ]]
-        ]
-    }
+    {"dt": "Custom Field"}
 ]
+doc_events = {
+    "Item": {
+        "before_save": "sudha_somany.item_controller.update_item_uoms"
+    }
+}
+
 
 
 # Apps
