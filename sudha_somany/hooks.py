@@ -5,6 +5,22 @@ app_description = "A Tile Manufacturing Company "
 app_email = "saisanthoshi.k@navtech.io"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            ["name", "in", [
+                "Item-custom_plnt",
+                "Item-custom_dv",
+                "Item-custom_pcs_in_box",
+                "Item-custom_mg_5"
+            ]]
+        ]
+    }
+]
+
+
 # Apps
 # ------------------
 
