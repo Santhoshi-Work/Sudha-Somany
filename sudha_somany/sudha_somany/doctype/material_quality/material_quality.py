@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Quality(Document):
+class MaterialQuality(Document):
 	pass

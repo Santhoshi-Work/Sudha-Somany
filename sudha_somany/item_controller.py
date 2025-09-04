@@ -28,13 +28,13 @@ def update_item_uoms(doc, method=None):
         doc.custom_box_factor = round(box_factor, 3)
     else:
         doc.custom_box_factor = 0
-
-    # --- Reset UOMs table ---
+        
     doc.set("uoms", [])
-    doc.append("uoms", {"uom": "M2", "conversion_factor": 1})
-
+    
+    # if not any(u.uom == "M2" for u in doc.uoms):
+    #     doc.append("uoms", {"uom": "M2", "conversion_factor": 1})
     if pcs_factor:
         doc.append("uoms", {"uom": "PCS", "conversion_factor": pcs_factor})
-
     if box_factor:
         doc.append("uoms", {"uom": "BOX", "conversion_factor": box_factor})
+

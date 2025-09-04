@@ -1,34 +1,35 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:quality_code",
+ "autoname": "field:material_quality_description",
  "creation": "2025-09-01 12:56:16.907196",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "quality_code",
-  "quality_description"
+  "material_quality_code",
+  "material_quality_description"
  ],
  "fields": [
   {
-   "fieldname": "quality_code",
+   "fieldname": "material_quality_code",
    "fieldtype": "Data",
-   "label": "Quality Code",
+   "label": "Material Quality Code",
    "unique": 1
   },
   {
-   "fieldname": "quality_description",
+   "fieldname": "material_quality_description",
    "fieldtype": "Data",
-   "label": "Quality Description"
+   "label": "Material Quality Description",
+   "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-04 11:25:24.525479",
+ "modified": "2025-09-04 15:48:40.975722",
  "modified_by": "Administrator",
  "module": "Sudha Somany",
- "name": "Quality",
+ "name": "Material Quality",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

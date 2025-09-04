@@ -1,7 +1,7 @@
 // Copyright (c) 2025, NAVTECH and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("Quality", {
+// frappe.ui.form.on("Material Quality", {
 // 	refresh(frm) {
 
 // 	},
