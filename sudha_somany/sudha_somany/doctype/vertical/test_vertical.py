@@ -13,9 +13,9 @@ IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
 
-class IntegrationTestMaterialGroup(IntegrationTestCase):
+class IntegrationTestVertical(IntegrationTestCase):
 	"""
-	Integration tests for MaterialGroup.
+	Integration tests for Vertical.
 	Use this class for testing interactions between multiple components.
 	"""
 

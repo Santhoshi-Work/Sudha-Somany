@@ -1,34 +1,34 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:division_code",
- "creation": "2025-09-01 13:42:32.038618",
+ "autoname": "field:quality_code",
+ "creation": "2025-09-01 12:56:16.907196",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "division_code",
-  "division_description"
+  "quality_code",
+  "quality_description"
  ],
  "fields": [
   {
-   "fieldname": "division_code",
+   "fieldname": "quality_code",
    "fieldtype": "Data",
-   "label": "Division Code ",
+   "label": "Quality Code",
    "unique": 1
   },
   {
-   "fieldname": "division_description",
+   "fieldname": "quality_description",
    "fieldtype": "Data",
-   "label": "Division Description "
+   "label": "Quality Description"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-01 13:46:42.644454",
+ "modified": "2025-09-04 11:25:24.525479",
  "modified_by": "Administrator",
  "module": "Sudha Somany",
- "name": "Division",
+ "name": "Quality",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

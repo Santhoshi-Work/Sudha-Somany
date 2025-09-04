@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class MaterialGroup(Document):
+class Vertical(Document):
 	pass

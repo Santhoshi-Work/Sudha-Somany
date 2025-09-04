@@ -1,34 +1,34 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:mg5_code",
- "creation": "2025-09-01 12:56:16.907196",
+ "autoname": "field:division_code",
+ "creation": "2025-09-01 13:42:32.038618",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "mg5_code",
-  "mg5_description"
+  "division_code",
+  "division_description"
  ],
  "fields": [
   {
-   "fieldname": "mg5_code",
+   "fieldname": "division_code",
    "fieldtype": "Data",
-   "label": "MG5 Code",
+   "label": "Vertical Code ",
    "unique": 1
   },
   {
-   "fieldname": "mg5_description",
+   "fieldname": "division_description",
    "fieldtype": "Data",
-   "label": "MG5 Description"
+   "label": "Vertical Description "
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-01 13:11:06.326559",
+ "modified": "2025-09-04 11:24:16.274829",
  "modified_by": "Administrator",
  "module": "Sudha Somany",
- "name": "Material Group",
+ "name": "Vertical",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
